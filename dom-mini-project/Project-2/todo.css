@@ -1,0 +1,36 @@
+
+header {
+    background-color: rgb(157, 194, 182);
+    width: 200px;
+    margin: auto;
+    height: 70px;
+    box-sizing: border-box;
+}
+.todo-title{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+.todo-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-box{
+    width: 250px;
+    height: 35px;
+}
+.input-box:focus {
+    border-color: #000;
+}
+main{
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
